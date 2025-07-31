@@ -1,0 +1,17 @@
+/* .slick-slide > div {
+   display: flex !important;
+   justify-content: center;
+}
+
+@media (max-width: 768px) {
+   .slick-slide > div {
+      padding: 0 0.3rem;
+   }
+}
+
+@media (max-width: 480px) {
+   .slick-slide > div {
+      padding: 0 0.2rem;
+   }
+} */
+

@@ -1,0 +1,190 @@
+.movie-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start; /* Aligns content to the left */
+  align-items: flex-start;
+  padding: 30px;
+  background-color: #f0f0f0;
+  min-height: 100vh;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.movie-details-container .movie-poster {
+  flex: 0 0 300px; /* Fixed width */
+  max-width: 300px;
+  max-height: 500px;
+  overflow: hidden;
+  position: fixed; /* Fixes the poster in place */
+  top: 100px; /* Adjust as needed to position it properly */
+  left: 30px; /* Keep it fully on the left */
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: zoomIn 1s ease-in-out;
+}
+
+
+.movie-details-container .movie-poster img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.movie-details-container .movie-poster img:hover {
+  transform: scale(1.1);
+}
+
+.movie-details-container .movie-info {
+  flex-grow: 1;
+  max-width: 900px;
+  padding: 50px;
+  margin-left: 350px; /* Adjust this to move details section left */
+  overflow: auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 1s ease-out;
+}
+
+.movie-details-container .movie-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #555;
+}
+
+.movie-details-container .release-date,
+.movie-details-container .movie-overview,
+.movie-details-container .movie-rating {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.movie-details-container .movie-overview {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.8);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Trailer Section */
+.trailer-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.trailer-preview {
+  width: 100%;
+  max-width: 600px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.trailer-preview:hover {
+  transform: scale(1.05);
+}
+
+iframe {
+  border-radius: 10px;
+}
+
+/* Streaming Platforms */
+/* Streaming Platforms */
+.streaming-platforms {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin-top: 20px;
+}
+
+.provider-item {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.provider-item p {
+  margin-left: 10px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.platform-logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+  border-radius: 5px;
+  border: 2px solid red;
+  transition: transform 0.3s ease-in-out;
+}
+
+.platform-logo:hover {
+  transform: scale(1.1);
+}
+.reviews-section {
+  margin-top: 20px;
+  padding: 20px;
+  border-top: 2px solid #ddd;
+}
+
+.reviews-section h2 {
+  font-size: 1.5rem;
+  color: #2a2a2a;
+  margin-bottom: 10px;
+  margin-left: 7px;
+}
+
+.review {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.review h4 {
+  color: #ffd700;
+  margin-bottom: 5px;
+}
+
+.review p {
+  color: #5f5f5f;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+

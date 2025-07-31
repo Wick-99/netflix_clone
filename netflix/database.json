@@ -1,0 +1,240 @@
+{
+   "genres": [
+      {
+         "genres": "Action",
+         "id": 1
+      },
+      {
+         "genres": "Horror",
+         "id": 2
+      },
+      {
+         "genres": "Drama",
+         "id": 3
+      },
+      {
+         "genres": "Thriller",
+         "id": 4
+      },
+      {
+         "genres": "Comedy",
+         "id": 5
+      },
+      {
+         "genres": "Sci-Fi",
+         "id": 6
+      }
+   ],
+   "movies": [
+      {
+         "image": "https://preview.redd.it/official-poster-for-dan-trachtenbergs-predator-badlands-v0-jofk4eyeylwe1.jpeg?width=1080&crop=smart&auto=webp&s=6a550faa047199f23de9f6435c1bb8a3b93639c9",
+         "genres": "Action",
+         "trailer": "https://youtu.be/43R9l7EkJwE?si=_9dhdbKzPdRl76gO",
+         "rating": 9.5,
+         "description": "Predator: Badlands is a sci-fi action thriller set in a desolate desert wasteland, where a group of elite soldiers must survive a deadly game of cat and mouse against a lone Predator. As they uncover the creature’s brutal hunting ground, survival becomes a battle of wits, weapons, and willpower.",
+         "releaseYear": 2026,
+         "title": "Predator:Badlands",
+         "id": 1
+      },
+      {
+         "image": "https://media.themoviedb.org/t/p/w500/fYEpuf85nsN3EP1pqlSsgRBge0I.jpg",
+         "genres": "Horror",
+         "trailer": "https://youtu.be/owdGcwufWK8?si=HxMLf3md6DjC-4Pg",
+         "rating": 8.9,
+         "releaseYear": 2026,
+         "title": "Chief of War",
+         "description": "Chief of War follows the epic journey of a Native Hawaiian warrior in the late 18th century as he rises to unite the fractured islands against colonial forces and rival chiefs. Caught between duty, legacy, and survival, he must navigate brutal battles and political intrigue to become a symbol of resistance and sovereignty.",
+         "id": 2
+      },
+      {
+         "image": "https://c1.wallpaperflare.com/preview/326/637/295/frankenstein-monster-boris-karloff-actor.jpg",
+         "genres": "Action",
+         "trailer": "https://youtu.be/x--N03NO130?si=3Q7QqNiq_-wu7Byq",
+         "rating": 8.2,
+         "releaseYear": 2025,
+         "title": "Frankenstein",
+         "description": "Frankenstein tells the haunting story of Victor Frankenstein, a brilliant scientist who creates a living being from dead body parts—only to be horrified by his own creation. As the monster seeks understanding and revenge, the tale explores the consequences of unchecked ambition, isolation, and the human desire to play god.",
+         "id": 3
+      },
+      {
+         "id": 4,
+         "title": "Inception",
+         "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project and his team to disaster.",
+         "genres": "Thriller",
+         "releaseYear": 2010,
+         "rating": 9.8,
+         "trailer": "https://youtu.be/YoHD9XEInc0",
+         "image": "https://wallpapercat.com/w/full/f/4/0/304856-1920x1080-desktop-1080p-inception-background-image.jpg"
+      },
+      {
+         "id": 5,
+         "title": "John Wick",
+         "genres": "Action",
+         "releaseYear": 2014,
+         "rating": 7.4,
+         "description": "John Wick is a relentless action thriller that follows a retired hitman pulled back into the underworld after a brutal attack forces him to seek vengeance. With ruthless efficiency and a legendary reputation, he takes on a world of assassins, unleashing chaos in a stylish, high-octane battle for justice.",
+         "trailer": "https://youtu.be/2AUmvWm5ZDQ",
+         "image": "https://4kwallpapers.com/images/wallpapers/john-wick-amoled-3840x2160-14686.png"
+      },
+      {
+         "id": 6,
+         "title": "Hereditary",
+         "genres": "Horror",
+         "releaseYear": 2018,
+         "rating": 7.3,
+         "trailer": "https://youtu.be/V6wWKNij_1M",
+         "image": "https://m.media-amazon.com/images/M/MV5BNTEyZGQwODctYWJjZi00NjFmLTg3YmEtMzlhNjljOGZhMWMyXkEyXkFqcGc@._V1_SX600.jpg",
+         "description": "Hereditary is a psychological horror film that delves into the unraveling of a family haunted by a sinister legacy. After the death of their secretive grandmother, eerie events and terrifying truths begin to surface, revealing a dark inheritance that threatens to destroy them from within."
+      },
+      {
+         "id": 7,
+         "title": "Fight Club",
+         "genres": "Drama",
+         "releaseYear": 1999,
+         "rating": 8.8,
+         "trailer": "https://youtu.be/SUXWAEX2jlg",
+         "image": "https://i.pinimg.com/736x/65/64/18/656418e82112f831b96442cbc697cce8.jpg",
+         "description": "Fight Club is a dark, psychological drama that follows a disillusioned office worker who forms an underground fight club with a mysterious soap salesman. As the club evolves into a violent anarchist movement, the lines between reality, identity, and rebellion begin to blur in this cult classic exploring modern masculinity and existential crisis."
+      },
+      {
+         "id": 8,
+         "title": "Se7en",
+         "genres": "Thriller",
+         "releaseYear": 1995,
+         "rating": 8.6,
+         "trailer": "https://youtu.be/znmZoVkCjpI",
+         "image": "https://s3.amazonaws.com/nightjarprod/content/uploads/sites/130/2022/01/20182552/778k7hm3i6f4jp6zwyfm9dds3hfut945m728oaa1108nx24g1njsdsfym4u8u1c52he7sf0g07q6fh5o.jpg",
+         "description": "Se7en is a gritty psychological thriller that follows two detectives—one seasoned, one rookie—as they hunt a methodical serial killer who uses the seven deadly sins as a twisted motif for his crimes. Dark, disturbing, and meticulously crafted, the film builds toward a chilling and unforgettable climax."
+      },
+      {
+         "id": 9,
+         "title": "Mad Max: Fury Road",
+         "genres": "Action",
+         "releaseYear": 2015,
+         "rating": 8.1,
+         "trailer": "https://youtu.be/hEJnMQG9ev8",
+         "image": "https://c4.wallpaperflare.com/wallpaper/768/781/199/mad-max-fury-road-movies-car-mad-max-wallpaper-preview.jpg",
+         "description": "Mad Max: Fury Road is a high-octane post-apocalyptic action film that follows Max Rockatansky as he teams up with the rebel warrior Furiosa to flee a tyrannical warlord across the wastelands. With explosive chases, brutal combat, and stunning visuals, it's a relentless fight for freedom and redemption."
+      },
+      {
+         "id": 10,
+         "title": "The Babadook",
+         "genres": "Horror",
+         "releaseYear": 2014,
+         "rating": 6.8,
+         "trailer": "https://youtu.be/szaLnKNWC-U",
+         "image": "https://images4.alphacoders.com/589/589760.jpg",
+         "description": "The Babadook is a psychological horror film that explores the fragile line between grief and madness. After the death of her husband, a single mother struggles to cope with her troubled young son’s fear of a sinister storybook character named `Mister Babadook.` As unsettling events escalate, she is forced to confront a terrifying presence that may be more real—and more personal—than she ever imagined. Blending atmospheric dread with emotional depth, the film is a chilling meditation on trauma and motherhood."
+      },
+      {
+         "id": 11,
+         "title": "Forrest Gump",
+         "genres": "Drama",
+         "releaseYear": 1994,
+         "rating": 8.8,
+         "trailer": "https://youtu.be/bLvqoHBptjg",
+         "image": "https://movieservice.mymovies.dk/Backdrops/fbef4dd0-b9c5-410c-b6fc-7542099c04b7.jpg",
+         "description": "Forrest Gump is a heartfelt drama that chronicles the extraordinary life of a kind-hearted man with a low IQ but an unshakable spirit. From running through the deep South to accidentally influencing historic events, Forrest's journey spans decades as he touches lives with his honesty, loyalty, and love—especially for his childhood friend Jenny. Blending humor, history, and emotion, the film is a powerful tribute to perseverance, innocence, and the idea that “life is like a box of chocolates—you never know what you're gonna get."
+      },
+      {
+         "id": 12,
+         "title": "Gone Girl",
+         "genres": "Thriller",
+         "releaseYear": 2014,
+         "rating": 8.1,
+         "trailer": "https://youtu.be/2-_-1nJf8Vg",
+         "image": "https://images2.alphacoders.com/111/1115019.jpg",
+         "description": "Gone Girl is a gripping psychological thriller that unravels the dark complexities of marriage, media, and manipulation. When Amy Dunne mysteriously disappears on her fifth wedding anniversary, her husband Nick becomes the prime suspect. As public scrutiny intensifies, shocking secrets surface, blurring the line between victim and villain. With twists at every turn, the film explores how far someone will go to maintain control—and how perception can be deadlier than truth."
+      },
+      {
+         "id": 13,
+         "title": "The Dark Knight",
+         "genres": "Action",
+         "releaseYear": 2008,
+         "rating": 9,
+         "trailer": "https://youtu.be/EXeTwQWrcwY",
+         "image": "https://wallpapercat.com/w/full/b/0/8/37797-3840x2160-desktop-4k-the-dark-knight-wallpaper-image.jpg",
+         "description": "The Dark Knight is a dark, intense superhero crime thriller that follows Batman as he faces his greatest challenge yet: the rise of the chaotic and unpredictable Joker. As Gotham City descends into fear and lawlessness, Batman must navigate moral dilemmas, sacrifice, and personal loss to uphold justice. With gripping action, psychological depth, and unforgettable performances, the film redefines the superhero genre and explores the thin line between heroism and vigilantism."
+      },
+      {
+         "id": 14,
+         "title": "It",
+         "genres": "Horror",
+         "releaseYear": 2017,
+         "rating": 7.3,
+         "trailer": "https://youtu.be/xKJmEC5ieOk",
+         "image": "https://cdn.wallpapersafari.com/57/85/Q0hHO1.jpg",
+         "description": "It is a chilling supernatural horror film based on Stephen King's novel, following a group of children in the town of Derry who are terrorized by a shape-shifting entity that most often appears as a sadistic clown named Pennywise. As they confront their deepest fears, the kids must band together to uncover the creature’s dark origins and stop its deadly cycle. Blending psychological terror with coming-of-age themes, It is both a terrifying and emotionally resonant story of fear, friendship, and trauma."
+      },
+      {
+         "id": 15,
+         "title": "The Pursuit of Happyness",
+         "genres": "Drama",
+         "releaseYear": 2006,
+         "rating": 8,
+         "trailer": "https://youtu.be/89Kq8SDyvfg",
+         "image": "https://m.media-amazon.com/images/M/MV5BMTUyNDkyNDg0NF5BMl5BanBnXkFtZTcwNDA1NjYyMw@@._V1_.jpg",
+         "description": "The Pursuit of Happyness is an inspiring biographical drama that tells the true story of Chris Gardner, a struggling salesman and devoted father who faces homelessness while trying to build a better future for his young son. Despite countless setbacks, Chris never gives up, fighting through poverty, rejection, and despair to earn a life-changing internship opportunity. Anchored by a powerful performance from Will Smith, the film is a moving tribute to perseverance, parental love, and the relentless pursuit of a dream."
+      },
+      {
+         "id": 16,
+         "title": "Prisoners",
+         "genres": "Thriller",
+         "releaseYear": 2013,
+         "rating": 8.1,
+         "trailer": "https://youtu.be/bpXfcTF6iVk",
+         "image": "https://images2.alphacoders.com/131/1313955.jpeg",
+         "description": "Prisoners is a tense and emotionally gripping thriller that explores the extremes of desperation and justice. When two young girls go missing in a quiet Pennsylvania town, one of their fathers, Keller Dover, takes matters into his own hands as the official investigation stalls. As detective Loki races against time to solve the case, moral boundaries are pushed, and disturbing secrets unravel. With haunting atmosphere and powerful performances, Prisoners is a chilling exploration of fear, faith, and how far someone will go to protect the ones they love."
+      },
+      {
+         "id": 17,
+         "title": "Gladiator",
+         "genres": "Action",
+         "releaseYear": 2000,
+         "rating": 8.5,
+         "trailer": "https://youtu.be/owK1qxDselE",
+         "image": "https://blurayauthority.com/wp-content/uploads/2018/05/gladiatorhd_pub.png",
+         "description": "Gladiator is an epic historical drama that follows Maximus Decimus Meridius, a betrayed Roman general who is forced into slavery and becomes a gladiator. Driven by vengeance for the murder of his family and the betrayal of an empire, Maximus rises through the bloody ranks of the arena to challenge the corrupt emperor who destroyed his life. With sweeping battles, emotional depth, and unforgettable performances, Gladiator is a powerful tale of honor, loyalty, and redemption set against the brutal grandeur of ancient Rome."
+      },
+      {
+         "id": 18,
+         "title": "A Quiet Place",
+         "genres": "Horror",
+         "releaseYear": 2018,
+         "rating": 7.5,
+         "trailer": "https://youtu.be/WR7cc5t7tv8",
+         "image": "https://c4.wallpaperflare.com/wallpaper/503/298/354/5k-a-quiet-place-emily-blunt-wallpaper-preview.jpg",
+         "description": "A Quiet Place is a tense and emotionally charged horror-thriller set in a post-apocalyptic world where blind, sound-sensitive creatures hunt anything that makes noise. A family struggles to survive in total silence, communicating through sign language and living in constant fear. As they prepare for the birth of a new child, their fragile safety is pushed to the edge. With minimal dialogue and masterful suspense, A Quiet Place is a gripping exploration of parental sacrifice, fear, and the primal instinct to protect."
+      },
+      {
+         "id": 19,
+         "title": "The Green Mile",
+         "genres": "Drama",
+         "releaseYear": 1999,
+         "rating": 8.6,
+         "trailer": "https://youtu.be/Ki4haFrqSrw",
+         "image": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24429_p_v12_bf.jpg",
+         "description": "The Green Mile is a powerful and haunting supernatural drama set in a 1930s death row prison block. The story follows Paul Edgecomb, a prison guard whose routine is upended by the arrival of John Coffey—a physically imposing but gentle inmate with a mysterious gift. As miraculous events unfold, Paul is forced to confront questions of morality, justice, and humanity. Deeply emotional and thematically rich, The Green Mile is a poignant exploration of compassion, cruelty, and the unexplained forces that shape life and death."
+      },
+      {
+         "id": 20,
+         "title": "Shutter Island",
+         "genres": "Thriller",
+         "releaseYear": 2010,
+         "rating": 8.2,
+         "trailer": "https://youtu.be/5iaYLCiq5RM",
+         "image": "https://images3.alphacoders.com/131/1318213.jpeg",
+         "description": "Shutter Island is a psychological thriller that follows U.S. Marshal Teddy Daniels as he investigates the mysterious disappearance of a patient from a secluded mental institution on a remote island. As a storm traps him there, Teddy uncovers disturbing secrets about the facility—and about himself. With mounting paranoia, cryptic clues, and shifting realities, the line between truth and madness begins to blur. Directed by Martin Scorsese, Shutter Island is a gripping descent into the human psyche and the devastating power of denial."
+      },
+      {
+         "image": "https://assets-in.bmscdn.com/discovery-catalog/events/tr:w-250,h-390/et00423622-mfexxlgepu-portrait.jpg",
+         "description": "Identity is a mind-bending psychological thriller that centers on ten strangers stranded at a remote Nevada motel during a violent storm. As they begin to die one by one in increasingly mysterious ways, tensions rise and secrets unravel. Meanwhile, a parallel storyline involving a death row inmate undergoing a psychiatric evaluation begins to intersect with the motel events in shocking ways. With a gripping narrative and a chilling twist, Identity explores themes of trauma, fractured identity, and the nature of guilt.",
+         "genres": "Action",
+         "trailer": "https://youtu.be/6LSqReemlTk?si=qwJzPFjzIxjex_qb",
+         "rating": 7.3,
+         "releaseYear": 2025,
+         "title": "Identity",
+         "id": 21
+      }
+   ]
+}
