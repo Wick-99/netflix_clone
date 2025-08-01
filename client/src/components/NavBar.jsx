@@ -17,7 +17,9 @@ const NavBar = () => {
                <NavLink
                   to="/"
                   className={({ isActive }) =>
-                     `nav-link ${isActive ? "text-danger fw-semibold" : "text-light"}`
+                     `nav-link ${
+                        isActive ? "text-danger fw-semibold" : "text-light"
+                     }`
                   }
                >
                   Home
@@ -25,7 +27,9 @@ const NavBar = () => {
                <NavLink
                   to="/search"
                   className={({ isActive }) =>
-                     `nav-link ${isActive ? "text-danger fw-semibold" : "text-light"}`
+                     `nav-link ${
+                        isActive ? "text-danger fw-semibold" : "text-light"
+                     }`
                   }
                >
                   Search Movies
@@ -33,7 +37,9 @@ const NavBar = () => {
                <NavLink
                   to="/favorites"
                   className={({ isActive }) =>
-                     `nav-link ${isActive ? "text-danger fw-semibold" : "text-light"}`
+                     `nav-link ${
+                        isActive ? "text-danger fw-semibold" : "text-light"
+                     }`
                   }
                >
                   Favorites
@@ -41,10 +47,12 @@ const NavBar = () => {
                <NavLink
                   to="/admin"
                   className={({ isActive }) =>
-                     `nav-link ${isActive ? "text-danger fw-semibold" : "text-light"}`
+                     `nav-link ${
+                        isActive ? "text-danger fw-semibold" : "text-light"
+                     }`
                   }
                >
-                  Admin
+                  Add Movies
                </NavLink>
             </div>
          </div>
