@@ -1,23 +1,26 @@
-# dependencies
-/node_modules
+# Node modules (both root and any subfolders like /client)
+**/node_modules/
+
+# Yarn PnP
+.pnp.*
 /.pnp
-.pnp.js
 
-# testing
-/coverage
-
-# production
-/build
-
-# misc
-.DS_Store
-
-# logs
+# Logs
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# env files
+# Testing
+/coverage
+
+# Production build output
+/build
+
+# Misc
+.DS_Store
+
+# Env files (except .env.example)
 .env
 .env.*
 !.env.example
+
