@@ -72,7 +72,7 @@ const NavBar = () => {
                         color: isActive ? "red" : "grey",
                      })}
                   >
-                     search
+                     Search
                   </NavLink>
                )}
 
