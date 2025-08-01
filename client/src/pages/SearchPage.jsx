@@ -52,7 +52,17 @@ const SearchPage = () => {
                   </div>
                ))
             ) : (
-               <p className="text-muted">No movies found.</p>
+               <p
+                  
+                  style={{
+                     display: "flex",
+                     width: "100%",
+                     justifyContent: "center",
+                     color: "red",
+                  }}
+               >
+                  No movies found.
+               </p>
             )}
          </div>
       </div>
