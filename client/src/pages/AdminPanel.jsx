@@ -13,7 +13,7 @@ const AdminPanel = () => {
             className="mb-4 text-uppercase"
             style={{ fontFamily: "Bebas Neue", letterSpacing: "2px" }}
          >
-            Admin Panel
+            Add New Movies
          </h2>
          <div className="mb-4 d-flex gap-3">
             <button

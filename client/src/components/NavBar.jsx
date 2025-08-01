@@ -52,7 +52,7 @@ const NavBar = () => {
                      }`
                   }
                >
-                  Add Movies
+                  Add Movie
                </NavLink>
             </div>
          </div>
