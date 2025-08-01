@@ -2,6 +2,7 @@ import React, { useContext } from "react";
 import MovieCard from "../components/MovieCard";
 import movieContext from "../context/MovieContext";
 import "../css/Favorites.css";
+import "../css/MovieCard.css";
 
 const Favorites = () => {
    const { favourites } = useContext(movieContext);

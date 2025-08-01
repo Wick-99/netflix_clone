@@ -16,6 +16,7 @@ const HeroComponent = ({ featuredMovie }) => {
                backgroundSize: "cover",
                backgroundPosition: "center",
                height: "60vh",
+               minHeight: "360px",
                position: "relative",
             }}
          >
@@ -27,22 +28,22 @@ const HeroComponent = ({ featuredMovie }) => {
                }}
             >
                <Container className="h-100 d-flex align-items-center">
-                  <Row>
-                     <Col lg={6}>
-                        <h1 className="display-4 text-light fw-bold mb-3">
+                  <Row className="w-100">
+                     <Col lg={6} className="text-start px-3 px-sm-4">
+                        <h1 className="fw-bold text-light mb-3 fs-4 fs-md-2 fs-lg-1">
                            {featuredMovie.title}
                         </h1>
-                        <p className="lead text-light mb-4 ml-0">
-                           {featuredMovie.description}
+                        <p className="text-light mb-4 fs-6 fs-md-5">
+                           {featuredMovie?.description?.slice(0,151)}
                         </p>
-                        <div className="d-flex gap-2">
-                           <span className="badge bg-danger fs-6">
+                        <div className="d-flex flex-wrap gap-2">
+                           <span className="badge bg-danger fs-7 fs-sm-6">
                               {featuredMovie.genres}
                            </span>
-                           <span className="badge bg-secondary fs-6">
+                           <span className="badge bg-secondary fs-7 fs-sm-6">
                               {featuredMovie.releaseYear}
                            </span>
-                           <span className="badge bg-warning text-dark fs-6">
+                           <span className="badge bg-warning text-dark fs-7 fs-sm-6">
                               ★ {featuredMovie.rating}
                            </span>
                         </div>
