@@ -15,7 +15,7 @@ const Favorites = () => {
             <div className="row g-4">
                {favourites.map((movie) => (
                   <div
-                     className="col-12 col-sm-6 col-md-4 col-lg-3 fade-in"
+                     className="col-6 col-sm-4 col-md-3 fade-in"
                      key={movie.id}
                   >
                      <MovieCard movie={movie} id={movie.id} />
