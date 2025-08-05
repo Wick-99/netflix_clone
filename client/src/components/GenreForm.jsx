@@ -23,8 +23,8 @@ const GenreForm = () => {
       try {
          toast.success("Genre Added Successfully");
          await postGenres(data);
-         await refetchGenres();
          reset();
+         await refetchGenres();
       } catch (err) {
          console.error(err);
          toast.error("Failed to add genre");
