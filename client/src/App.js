@@ -15,8 +15,9 @@ const App = () => {
          <ToastContainer
             position="top-right"
             autoClose={2000}
-            style={{ top: "100px" }}
+            style={{ top: "10vh" }} 
             toastClassName="bg-black text-white border-0 rounded-2 shadow"
+            bodyClassName="text-sm" // optional smaller font on mobile
          />
          <main className="flex-grow-1 p-4 w-100 d-flex flex-column">
             <Routes>
